@@ -1,4 +1,4 @@
-import { Plugin, TFile, NormalizePath } from 'obsidian';
+import { Plugin, TFile, normalizePath, Notice } from 'obsidian';
 
 export default class ColonSwapPlugin extends Plugin {
 	async onload() {
